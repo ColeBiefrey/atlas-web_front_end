@@ -1,0 +1,8 @@
+/* creates a class for each name in a list then assigns images based on the name using import and each statements */
+@import '11-photos.scss';
+
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
