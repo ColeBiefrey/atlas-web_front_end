@@ -1,0 +1,7 @@
+/* assigns colors to elements, this time using a nested children declaration */
+body {
+    color: #3D3D3D;
+    > .red {
+        color: #FF0000;
+    }
+}
