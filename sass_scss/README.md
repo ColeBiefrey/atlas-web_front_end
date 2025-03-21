@@ -1,0 +1,1 @@
+These files are to further my understanding of sass and scss for styling and variables.

@@ -1,0 +1,14 @@
+/* assigns specific colors from previously built tags to use on classes using an import */
+@import './10-colors.scss';
+
+.red {
+    color: $red;
+}
+
+.green {
+    color: $green;
+}
+
+.blue {
+    color: $blue;
+}

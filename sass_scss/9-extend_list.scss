@@ -1,0 +1,14 @@
+/* assigns font to info class and specific colors to extended style classes */
+.info {
+    font-size: 12px;
+}
+
+.success {
+    @extend .info;
+    color: #00FF00;
+}
+
+.warning {
+    @extend .info;
+    color: #FF0000;
+}

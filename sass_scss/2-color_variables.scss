@@ -1,0 +1,16 @@
+/* Assigns specific color to body and p, and a backround color to body and h2 */
+$text-grey: #3D3D3D;
+$background-grey: #6D6D6D;
+
+body {
+    color: $text-grey;
+    background-color: $background-grey;
+}
+
+p {
+    color: $text-grey;
+}
+
+h2 {
+    background-color: $background-grey;
+}

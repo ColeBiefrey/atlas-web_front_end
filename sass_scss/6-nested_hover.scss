@@ -1,0 +1,7 @@
+/* assigns color to a button and changes on hover using nested declarations */
+button {
+    color: #FF0000;
+    &:hover {
+        color: #00FF00;
+    }
+}

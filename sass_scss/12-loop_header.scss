@@ -1,0 +1,6 @@
+/* creates a tag where specific fonts can be assigned using a for statement */
+@for $size from 1 through 5 {
+    h#{$size} {
+        font-size: #{$size}px;
+    }
+}
