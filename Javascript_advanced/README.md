@@ -80,3 +80,36 @@ run the script in console to process some payments in log
 
 --
 
+9-prime
+
+run the script in the console for timed output
+
+--
+
+10-prime
+
+same as previous but wiht a slightly higher milisecond count do to running 100 times!
+
+--
+
+11-prime
+
+^
+
+--
+
+12-room
+
+run this to get the area of inputted script
+
+--
+
+13-bind
+
+running this in console will return desired output
+
+--
+
+14-wiki
+
+run the scirpt to get the wiki page output
