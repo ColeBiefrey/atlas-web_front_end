@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Task 3</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"></script>
+    </head>
+<body>
+    <script type="application/javascript">
+        $(document).ready(function(){
+            createFamilyTree();
+        });
+
+        function createFamilyTree() {
+            const table = $('<table>');
+            const thead = $('<thead>').append(
+                $('<tr>').append(
+                    $('<th>').text('Firstname'),
+                    $('<th>').text('Lastname')
+                )
+            );
+            table.append(thead);
+
+            const tbody = $('<tbody>').append(
+                $('<tr>').append(
+                    $('<td>').text('Guillaume'),
+                        $('<td>').text('Salva')
+                ),
+                $('<tr>').append(
+                    $('<td>').text('Paulette'),
+                        $('<td>').text('Salva')
+                ),
+                $('<tr>').append(
+                    $('<td>').text('Antoine'),
+                    $('<td>').text('Salva')
+                )
+            );
+            table.append(tbody);
+
+            $('body').append(table);
+        }
+    </script>
+</body>
+
+</html>
